@@ -1,7 +1,7 @@
 # Este é um serviço RestFull que é capaz de fazer POST e GET.
 
 ###### Abaixo segue um exemplo do JSON usado na API:
-'''json
+```json
 >[
 >    {
 >        "id": 1,
@@ -25,5 +25,5 @@
 >        "placa": "AAA-111"
 >    }
 >]
-'''
+```
 
