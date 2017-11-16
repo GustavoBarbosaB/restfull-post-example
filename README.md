@@ -1,6 +1,6 @@
 # Este é um serviço RestFull que é capaz de fazer POST e GET.
 
-###### Exemplo do JSON retornado na API:
+## Exemplo do JSON retornado na API:
 ```json
 [
    {
@@ -27,7 +27,7 @@
 ]
 ```
 
-###### Exemplo de JSON usado em um POST:
+## Exemplo de JSON usado em um POST:
 > O id é atribuido pela própria API
 ```json
 {
@@ -39,15 +39,15 @@
 
 ```
 
-###### URL's para GET e POST
-*GET todos os carros*
+## URL's para GET e POST
+***GET todos os carros***
 > http://localhost:8080/car
 
-*GET carro por marca*
+***GET carro por marca***
 >http://localhost:8080/car/MarcaAqui
 
-*GET carro por marca e cor*
+***GET carro por marca e cor***
 >http://localhost:8080/car/Volkswagen?cor=Preta
 
-*POST carro*
+***POST carro***
 >http://localhost:8080/addCar
